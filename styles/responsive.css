@@ -1,0 +1,96 @@
+@media only screen and (max-width:320px) {
+    body{
+
+    }
+    .top-banner{
+       width: 320px;
+       height: 695px;
+       background-color: #2D25A0;
+       display: flex;
+       flex-direction:column;
+   }
+   .top-banner-left{
+       position: absolute;
+       left:16px;
+       top: 112px;
+   }
+   .top-banner-text{
+       color: white;
+       font-weight:700;
+       font-size: 30px;
+       width:278px;
+       height: 128px;
+       
+   }
+   .top-banner-button{
+       margin:30px 0 0 19px;
+   }
+   .top-banner-right img{ 
+    position: absolute;
+    width: 250px;
+    height: 259.17px;
+    left: 5px;
+    top: 400px;
+    opacity: 0.6;
+    border-radius: 100px;
+   }
+   .blogs{
+    grid-template-columns: repeat(1,1fr);
+    margin: 15px;
+   }
+   .blog{
+    padding:0;
+    width:250px;
+    height:426px;
+    margin: 15px;
+   }
+   .blog img{
+       width: 250px;
+   }
+   .bottom{
+    flex-direction: column;
+    margin-top: 60px;
+    margin: auto;
+    width:220px;
+    height:340px;
+    padding: 15px;
+   }
+ .bottom-left{
+    
+}
+.top-left h2{
+    width: ;:220px;
+    font-size: 20px;
+    margin:0;
+}
+.bottom-left h2,.bottom-left p,
+.bottom-left a{
+    position: relative;
+    margin-left:0;
+    margin-right:0;   
+}
+.bottom-right img{
+    margin-top: 105px;
+    width: 220px;
+    height: 248px;
+    margin-right: 0;
+    border: 1px solid red;
+}
+.bottom-banner-button{
+    margin: o;
+    position: relative;
+    bottom: 0;
+    left: 0;
+}
+footer{
+    width: 320px;
+    margin-top: 180px;
+}
+footer img{
+    width: 320px;
+}
+.footer-icons{
+    width: 320px;
+}
+}
+.navi{display: none;}
