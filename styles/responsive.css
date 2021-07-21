@@ -1,6 +1,7 @@
 @media only screen and (max-width:320px) {
     body{
-
+        margin: 0;
+        padding: 0;
     }
     .top-banner{
        width: 320px;
@@ -29,37 +30,39 @@
     position: absolute;
     width: 250px;
     height: 259.17px;
-    left: 5px;
+    left: 35px;
     top: 400px;
     opacity: 0.6;
     border-radius: 100px;
    }
    .blogs{
     grid-template-columns: repeat(1,1fr);
-    margin: 15px;
+    margin: 5px;
    }
    .blog{
     padding:0;
     width:250px;
     height:426px;
-    margin: 15px;
+    margin: auto;
+    margin-top: 15px;
    }
    .blog img{
        width: 250px;
+       margin: auto;
    }
    .bottom{
     flex-direction: column;
-    margin-top: 60px;
     margin: auto;
+    margin-top: 15px;
     width:220px;
     height:340px;
     padding: 15px;
    }
  .bottom-left{
-    
+    margin: auto;
 }
 .top-left h2{
-    width: ;:220px;
+    width: :220px;
     font-size: 20px;
     margin:0;
 }
@@ -70,10 +73,11 @@
     margin-right:0;   
 }
 .bottom-right img{
-    margin-top: 105px;
+    position: absolute;
+    top:6397px;
     width: 220px;
     height: 248px;
-    margin-right: 0;
+    margin:auto;
     border: 1px solid red;
 }
 .bottom-banner-button{
@@ -88,9 +92,37 @@ footer{
 }
 footer img{
     width: 320px;
+    
 }
 .footer-icons{
     width: 320px;
 }
+
+ .navi{
+    display: none;
 }
-.navi{display: none;}
+/*
+.navi-responsive{
+    padding:
+    position: absolute;
+    top: px;
+    left: px;
+    display:block;
+}
+.menu-bar-icon{
+  visibility: hidden;
+  position: absolute;
+  right: 0;
+}
+.fas{
+    visibility: visible;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+.fas:hover .menu-bar-icon,.menu-button{
+    visibility: visible;
+}
+ */
+
+}

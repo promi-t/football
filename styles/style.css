@@ -7,6 +7,10 @@ body{
       
 }
 /* main menu  start*/
+.navi-responsive{
+   display: none;
+}
+
 .navi{
     position: absolute;
     right: 20px;
